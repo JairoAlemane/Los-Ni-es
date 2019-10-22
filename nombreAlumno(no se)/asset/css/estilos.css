@@ -1,6 +1,11 @@
 footer{
+    position: relative;
+    height: 25%;
     background-color: rgb(54, 48, 46);
 }
-.contenedor-footer{
-    color: white;
+.lista-footer{
+    list-style: none;
+}
+.contenedor-footer h3{
+    position: sticky;
 }
