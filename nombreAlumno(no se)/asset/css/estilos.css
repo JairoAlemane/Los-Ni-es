@@ -3,9 +3,9 @@ footer{
     height: 25%;
     background-color: rgb(54, 48, 46);
 }
-.lista-footer{
+.lista_footer{
     list-style: none;
 }
-.contenedor-footer h3{
-    position: sticky;
+.contenedor_footer{
+    position: relative;
 }
