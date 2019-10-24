@@ -1,0 +1,128 @@
+/* --- Estilos Generales --- */
+*{
+    margin:0;
+    padding: 0;
+    /* Esto sirve para que las cajas tomen el valor que le
+    damos sin necesidad de estar sumando el paddin
+    por ejemplo, si tenemos una seccion de 500px
+    y le coloco a la derecha con float:left
+    un article de width:300px mas un paddin:20px
+    me quedan 200px(sin las tres lineas de abajo quedarian
+    160px a la izquierda) nos van a sobrar 200px a la
+    izquierda, donde se puede agregar un aside con 
+    float:rigth width:200px paddin:20px 
+    (((((((importante: si
+    hacen lo anterior tener en cuenta que en la siguiente
+    estructura sea de linea o bloque tienen que colocar
+    clear:both)))))))
+    Si no lo entienden y no les deja hacer lo que quieren
+    hacer solo comenten las de abajo */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: rgb(54, 48, 46);
+    text-align: center;
+}
+
+body{
+    width:100%;
+    background-color:#d9d9d6;
+}
+.lista_footer{
+    list-style: none;
+}
+.contenedor_footer{
+    margin: 0 auto;
+    display: inline-block;
+    padding: 2rem 10rem;
+    width: auto;
+    /*position: relative;    
+    width: 100%;
+    height: 100px;*/
+}
+
+
+/* --- Newsletter --- */
+
+.contenedorBoletin{
+    margin:35px auto 25px auto;
+    width: 30%;
+    /* background-color: red; */
+}
+
+.contenedorBoletin h2{
+    margin-bottom: 10%;
+    text-align-last:justify;
+}
+
+.contenedorBoletin input[type="email"],
+input[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin:15px auto 0 auto;
+}
+
+.contenedorBoletin input[type="email"]{
+    border-style: none;
+    padding:1px;
+    background-color: transparent;
+    border-bottom:1px solid black;
+    font-size:17px;
+}
+
+.contenedorBoletin input[type="email"]:focus{
+    border-bottom:2px solid black;
+    /*Las 5 lineas de abajo estan para quitarle el borde azul que se pone cuando hacemos focus en un input*/
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.contenedorBoletin input[type="submit"]{
+    border:1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contenedorBoletin input[type="submit"]:hover{
+    background-color: rgba(80, 80, 80, 0.63);
+}
+
+/* - - - - - - - - - */
+
+
+/* --- Cookies --- */
+
+.cookies{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-size:15px;
+    background-color: rgba(149,148,148,0.5);
+    width: 100%;
+    height: 50px;
+}
+
+
+.cookies p{
+    position: relative;
+    top:50%;
+}
+
+.btn1{
+    margin:10px;
+    float: right;
+}
+
+.btn2{
+    border-style: none;
+    background-color:rgba(15, 90, 65, 0.815);
+}
+
+/* - - - - - - - - - */
