@@ -1,27 +1,3 @@
-footer {
-    background-color: rgb(54, 48, 46);
-    text-align: center;
-}
-
-body {
-    width: 100%;
-    background-color: #d9d9d6;
-}
-
-.lista_footer {
-    list-style: none;
-}
-
-.contenedor_footer {
-    margin: 0 auto;
-    display: inline-block;
-    padding: 2rem 10rem;
-    width: auto;
-    /*position: relative;    
-    width: 100%;
-    height: 100px;*/
-}
-
 /* --- Estilos Generales --- */
 
 * {
@@ -53,14 +29,16 @@ body {
 
 /* - - - - - - - - - */
 
-/* --- Selección de Categoría --- */
+/* --- Contenido de Página --- */
 
-/* Selección entre Moda Mujer, Moda Hombre, Moda Niño y Accesorios */
+body {
+    width: 100%;
+    background-color: #d9d9d6;
+}
 
-/* - - - - - - - - - */
+/* Selección de Categoría */
 
-/* --- Newsletter --- */
-
+/* Newsletter */
 .contenedorBoletin {
     margin: 35px auto 25px auto;
     width: 30%;
@@ -106,14 +84,28 @@ body {
 .contenedorBoletin input[type="submit"]:hover {
     background-color: rgba(80, 80, 80, 0.63);
 }
-
 /* - - - - - - - - - */
 
 /* --- Pie de Página --- */
 
-/* Métodos de Pago */
+footer {
+    background-color: rgb(54, 48, 46);
+    text-align: center;
+}
+/* Métodos de Pago - Formas de Envío */
+.contenedor_footer {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 2rem 10rem;
+    width: auto;
+    /*position: relative;    
+    width: 100%;
+    height: 100px;*/
+}
 
-/* Formas de Envío */
+.lista_footer {
+    list-style: none;
+}
 
 /* Menú Secundario */
 
