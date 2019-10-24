@@ -1,14 +1,16 @@
-<html>
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
+    <!-- --- Configuración Inicial --- -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejercicio - Módulo 2</title>
 
-    <!-- Posicionamiento SEO -->
+    <!-- - - - - - - - - - -->
+
+    <!-- --- Posicionamiento SEO --- -->
     <meta name="title" content="Fundación Telefónica - Curso de Desarollo Front-End">
     <meta name="description"
         content="Página creada para comprobar el correcto aprendizaje de HTML y CSS por parte de nuestro equipo de trabajo en el Curso de Desarollo Front-End de Fundación Telefónica">
@@ -17,13 +19,17 @@
     <meta name="author"
         content="Los Neeñxs - Jairo Alemañe, Eduardo Merino, Nahuel Montalvo, Rodrigo Moyano, Carolina Olivares">
 
+    <!-- - - - - - - - - - -->
+
+    <!-- --- Estilos --- -->
+
+    <!-- Estilos Generales-->
+    <link rel=" stylesheet" type="text/css" href="asset/css/estilos.css">
+
     <!-- Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="asset/css/all.css">
 
-    <!-- Estilos -->
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
-
-
+    <!-- - - - - - - - - - -->
 
 </head>
 
@@ -49,14 +55,27 @@
 
     <!-- - - - - - - - - - -->
 
-    <!-- --- Selección de Categoría --- -->
-    <!-- Selección entre Moda Mujer, Moda Hombre, Moda Niño y Accesorios -->
+    <!-- --- Contenido de Página --- -->
+    <main>
+        <!-- Selección de Categoría -->
 
+        <!-- Newsletter -->
+        <section>
+            <!-- Aca empieza el newsletter( de ahora en mas boletin je) -->
+            <div class="contenedorBoletin">
+                <h2>ÚNETE A NUESTRA NEWSLETTER</h2>
+                <form class="formulario" action="" method="POST">
+                    <!-- A este inmput, al de email les diria que lo comenten mientras programan por que cada vez que refresquen
+                        la pagina para ver los cambios les va asalir un cartel re molesto -->
+                    <input type="email" placeholder="Insertar su e-mail" title="Campo de email">
+                    <input type="submit" value="Suscribirse" title="Boton para confirmacion de suscripcion">
+                </form>
+            </div>
+        </section>
+    </main>
     <!-- - - - - - - - - - -->
 
-    <!-- --- Newsletter --- -->
 
-    <!-- - - - - - - - - - -->
 
     <!-- --- Pie de Página --- -->
     <footer>
@@ -105,49 +124,6 @@
                 informacíon y políticas de cookies</a></p>
     </div>
     <!-- - - - - - - - - - -->
-
-
-
-
-
-
-
-
-    <!-- parte de cards y de newsletter (Jairo y Nahuel) -->
-    <main>
-        <section>
-            <!-- Aca empieza el newsletter( de ahora en mas boletin je) -->
-            <div class="contenedorBoletin">
-                <h2>ÚNETE A NUESTRA NEWSLETTER</h2>
-                <form class="formulario" action="" method="POST">
-                    <!-- A este inmput, al de email les diria que lo comenten mientras programan por que cada vez que refresquen
-                        la pagina para ver los cambios les va asalir un cartel re molesto -->
-                    <input type="email" placeholder="Insertar su e-mail" title="Campo de email">
-                    <input type="submit" value="Suscribirse" title="Boton para confirmacion de suscripcion">
-                </form>
-            </div>
-        </section>
-        <section>
-            <!-- Aca empieza el newsletter( de ahora en mas boletin je) -->
-            <div class="contenedorBoletin">
-                <h2>ÚNETE A NUESTRA NEWSLETTER</h2>
-                <form class="formulario" action="" method="POST">
-                    <!-- A este inmput, al de email les diria que lo comenten mientras programan por que cada vez que refresquen
-                    la pagina para ver los cambios les va asalir un cartel re molesto -->
-                    <input type="email" placeholder="Insertar su e-mail" title="Campo de email">
-                    <input type="submit" value="Suscribirse" title="Boton para confirmacion de suscripcion">
-                </form>
-            </div>
-        </section>
-    </main>
-
-
-
-
-
-
-
-
-
-
 </body>
+
+</html>
