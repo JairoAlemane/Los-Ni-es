@@ -19,10 +19,16 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing:border-box;
     box-sizing: border-box;
+}
 
 footer{
     background-color: rgb(54, 48, 46);
     text-align: center;
+}
+
+body{
+    width:100%;
+    background-color:#d9d9d6;
 }
 .lista_footer{
     list-style: none;
