@@ -39,6 +39,7 @@ body {
 /* Selección de Categoría */
 
 /* Newsletter */
+
 .contenedorBoletin {
     margin: 35px auto 25px auto;
     width: 30%;
@@ -84,6 +85,7 @@ body {
 .contenedorBoletin input[type="submit"]:hover {
     background-color: rgba(80, 80, 80, 0.63);
 }
+
 /* - - - - - - - - - */
 
 /* --- Pie de Página --- */
@@ -92,7 +94,9 @@ footer {
     background-color: rgb(54, 48, 46);
     text-align: center;
 }
+
 /* Métodos de Pago - Formas de Envío */
+
 .contenedor_footer {
     margin: 0 auto;
     display: inline-block;
