@@ -29,27 +29,6 @@ body{
     width:100%;
     background-color:#d9d9d6;
 }
-.lista_footer{
-    list-style: none;
-}
-.contenedor_footer{
-    margin: 0 auto;
-    display: inline-block;
-    padding: 2rem 10rem;
-    width: auto;
-    color: white;
-    /*position: relative;    
-    width: 100%;
-    background-color: #d9d9d6;*/
-}
-.footerNav{
-    display: block;
-}
-.footerNav a{
-    text-decoration: none;
-    color:white;
-    
-}
 
 /* Selección de Categoría */
 
@@ -117,6 +96,7 @@ footer {
     display: inline-block;
     padding: 2rem 10rem;
     width: auto;
+    color: white;
     /*position: relative;    
     width: 100%;
     height: 100px;*/
@@ -124,6 +104,15 @@ footer {
 
 .lista_footer {
     list-style: none;
+}
+.footerNav{
+    display: block;
+}
+.footerNav a{
+    text-decoration: none;
+    padding: 0 4px;
+    color:white;
+    
 }
 
 /* Menú Secundario */
